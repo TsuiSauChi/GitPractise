@@ -9,7 +9,7 @@ jobs:
       - run: echo "Branch Name ${{github.ref}}"
       - run: echo "Repo Name ${{github.repository}}"
       - name: Check out repository code
-        uses: actions/checkout@v2ib
+        uses: actions/checkout@v2
       - run: echo "Testing123"
       - name: List files in the repository
         run: |
